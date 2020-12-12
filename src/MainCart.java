@@ -9,6 +9,8 @@ public class MainCart {
         sc.displayCartItems();
         sc.displayCartTotal();
         sc.paymentMethod.pay();
+        sc.setPaymentMethod(new PayWithDebitCard());
+        sc.paymentMethod.pay();
 
 
     }
